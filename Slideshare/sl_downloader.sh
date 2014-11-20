@@ -26,7 +26,7 @@ else
     exit 1
 fi
 
-base_url=`wget -q -O- "${TMPFILE}" "${url}" | grep thumbnail | head -1 | grep -o '\"http.*\"'`
+base_url=`wget -q -O- "${url}" | grep thumbnail | head -1 | grep -o '\"http.*\"'`
 
 if [[ "${base_url}" == "" ]]; then
     echo "There's something wrong while taking the base url. Take a look at the supplied URL."
