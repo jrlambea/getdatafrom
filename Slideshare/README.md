@@ -23,7 +23,7 @@ From: http://es.slideshare.net/mikatama/test-slide-share-1?next_slideshow=1
 
 Configuration
 --
-All the config possibinilies are the variables at first lines of the script, there are:
+All the config possibilities are the variables at first lines of the script, there are:
 
 - TMPDIR for temp directory, it's wipe at the end of the script.
 - SCALEFACTOR as scale for the slides, when bigger, the static images quality is poor.
